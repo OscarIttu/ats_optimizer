@@ -94,7 +94,3 @@ El motor de IA audita el currículum devolviendo obligatoriamente un objeto estr
 ---
 
 Desarrollado con 🧠 enfocado en la integración de Inteligencia Artificial en entornos de Talento y Software.
-
-```
-
-```
