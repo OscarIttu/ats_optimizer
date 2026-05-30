@@ -48,17 +48,17 @@ python -m streamlit run app.py
 
 La aplicación se abrirá automáticamente en tu navegador en http://localhost:8501.
 
-📊 Arquitectura del Reporte JSON Generado
-El backend procesa la información y exige a la IA una respuesta basada en el siguiente esquema estructurado:
+## 🌟 Características Clave del Reporte
+El motor de IA audita el currículum devolviendo obligatoriamente los siguientes puntos estructurados:
 
-score_ats: Nota global de optimización (0 a 100).
+Puntuación ATS Global: Una métrica de 0 a 100 que calcula el nivel de compatibilidad.
 
-palabras_clave_faltantes: Habilidades y herramientas críticas no detectadas.
+Palabras Clave Faltantes: Identificación de habilidades técnicas, herramientas o certificaciones críticas que exige la oferta pero no están en el CV.
 
-brechas_semanticas: Incongruencias entre los requisitos y la experiencia redactada.
+Brechas Semánticas: Incongruencias o debilidades conceptuales entre la experiencia redactada y el puesto.
 
-mejoras_redaccion: Sugerencias específicas con formato Frase Original ➡️ Frase Sugerida + Motivo técnico.
+Sugerencias de Redacción: Propuestas exactas en formato Frase Original ➡️ Frase Sugerida, acompañadas del motivo de optimización técnica.
 
-secciones_a_anadir: Apartados que faltan por completo en el documento.
+Secciones Recomendadas: Apartados ausentes indispensables para el perfil (ej. Portafolio, Certificaciones).
 
 Desarrollado con 🧠 enfocado en la integración de Inteligencia Artificial en entornos de Talento y Software.
