@@ -1,4 +1,3 @@
-```markdown
 # 💼 AI ATS Optimizer — Auditor Experto de CVs con Gemini 2.5
 
 Este proyecto es un **Optimizador de Currículums automatizado** diseñado para ayudar a los candidatos a superar los filtros de los Sistemas de Seguimiento de Candidatos (ATS) que utilizan las empresas en sus procesos de selección. 
@@ -26,7 +25,7 @@ El flujo de información sigue una estructura de procesamiento y validación sem
 * **Análisis Semántico Avanzado:** Conexión directa con la API de **Gemini 2.5 Flash / Pro** para auditar el contenido.
 * **Structured Outputs:** Uso de moldes estrictos de **Pydantic** para forzar al modelo de IA a responder en JSON nativo sin alucinaciones.
 * **Extracción Limpia de PDF:** Procesamiento de documentos estructurados mediante `pdfplumber`.
-* **Interfaz Web Interactiva:** UI moderna, rápida y limpia desarrollada íntegramente con **Streamlit**.
+* **Interfaz Web Interactive:** UI moderna, rápida y limpia desarrollada íntegramente con **Streamlit**.
 
 ---
 
@@ -46,8 +45,8 @@ Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina local:
 
 ### 1. Clonar el repositorio
 ```bash
-git clone [https://github.com/OscarIttu/optimizador_ats.git](https://github.com/OscarIttu/optimizador_ats.git)
-cd optimizador_ats
+git clone [https://github.com/TU_USUARIO_DE_GITHUB/ats_optimizer.git](https://github.com/TU_USUARIO_DE_GITHUB/ats_optimizer.git)
+cd ats_optimizer
 
 ```
 
